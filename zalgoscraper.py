@@ -1,8 +1,8 @@
 # For the scraping
-import requests
-import urllib.request
+# import requests
+# import urllib.request
 import time
-from bs4 import BeautifulSoup # a tool for parsing json and xml
+# from bs4 import BeautifulSoup # a tool for parsing json and xml
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -40,4 +40,4 @@ def scrapeWebsite(message):
 
 	return res
 
-# scrapeWebsite("Test message")
+scrapeWebsite("Test message")
